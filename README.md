@@ -46,31 +46,6 @@ It correctly bundles React in production mode and optimizes the build for the be
  
  <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
- 
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-Don't forget to give the project a star! Thanks again!
-
-
-## Acknowledgements
-
-
-This project was completed as part of an advanced challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/memory-game-vse4WFPvM).
-The card icons used in this game are from [Font Awesome](https://fontawesome.com/).
-
-
-## License
-
-Distributed under the `MIT License`.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-
 
 
 
