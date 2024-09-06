@@ -3,7 +3,7 @@
 # Multiplayer Memory Game
 
 
-This is a multiplayer memory game built using React, as part of an advanced challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges/memory-game-vse4WFPvM). The game offers various features including multiplayer mode, customizable grid size, and customizable themes.
+This is a multiplayer memory game built using React. The game offers various features including multiplayer mode, customizable grid size, and customizable themes.
 
 
 ## Demo
