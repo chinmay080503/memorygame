@@ -1,0 +1,108 @@
+.button{
+    color: var(--color-light);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-bold);
+}
+
+.button-orange{
+    background-color: var(--color-orange);
+}
+.button-orange:hover{
+    background-color: var(--color-orange-hover);
+}
+
+.active,.button-dark{
+    background-color: var(--color-light-dark);
+}
+
+.button-gray{
+    background-color: var(--color-gray);
+}
+.button-gray:hover{
+    background-color: var(--color-gray-hover);
+}
+
+.button-very-light:hover{
+    background-color: var(--color-gray-hover);
+}
+.button-very-light:hover{
+    color: var(--color-light);
+}
+
+.button-very-light{
+    background-color: var(--color-very-light);
+    color: var(--color-light-dark);
+}
+
+.button-rounded{
+    border-radius: 41px !important;
+}
+
+.button-menu{
+    width: 78px !important;
+    height: 40px !important;
+    font-size: 16px !important;
+}
+
+.lg-screen-btns{
+    display: none;
+}
+
+@media (max-width: 767px){
+    .button{
+        width: 279px;
+        height: 48px;
+        font-size: 18px;
+        border-radius: 26px;
+    }
+
+    .button-md{
+        width: 134px !important;
+        height: 40px !important;
+        font-size: 16px !important;
+    }
+
+    .button-sm{
+        width: 62px !important;
+        height: 40px !important;
+        font-size: 16px !important;
+    }
+}
+
+
+@media (min-width: 768px){
+    .button{
+        width: 541px;
+        height: 70px;
+        font-size: 32px;
+        border-radius: 35px;
+        margin-bottom: 32px;
+    }
+
+    .button-md{
+        width: 256px !important;
+        height: 52px !important;
+        font-size: 26px !important;
+        border-radius: 26px;
+    }
+
+    .button-sm{
+        width: 119px !important;
+        height: 52px !important;
+        font-size: 26px !important;
+    }
+
+    .button-menu{
+        display: none;
+    }
+
+    .lg-screen-btns{
+        display: block;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}

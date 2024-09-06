@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px){
+    .home-container{
+        margin-top: 80px;
+        gap: 45px;
+    }
+    .home-container .button{
+        margin-bottom: var(--margin-primary);
+    }
+
+}
+
+.start-game {
+    text-align: center;
+}
+
+.start-game button{
+    margin-bottom: 0px;
+}
+
+.select-them, .select-numbers, .select-grid-size{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 768px){
+    .home-container{
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    .home-container .button{
+        margin-bottom: 24px;
+    }
+
+    .home-container .popup{
+        padding: 32px;
+        max-width: calc(654px - 64px);
+    }
+    .home-container .popup .button:last-child{
+        margin-bottom: 0;
+    }
+}
